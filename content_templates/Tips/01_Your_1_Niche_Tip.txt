@@ -1,3 +1,4 @@
+```
 My #1 {your niche} {method} tip: {your tip}
 
 (especially if you're trying to grow)
@@ -29,3 +30,4 @@ Your post is a roadmap to your idea.
 Get the {end goal of your tip}.
 
 They'll reward you by consuming your content, daily.
+```

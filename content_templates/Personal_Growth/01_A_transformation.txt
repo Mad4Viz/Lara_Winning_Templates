@@ -1,3 +1,4 @@
+```
 {Time frame} ago, I stopped {action}.
 
 {Context}.
@@ -19,3 +20,4 @@ In fact, since I stopped {action}:
 And {time frame} later, I've never been clearer on my reasons to never {action} again.
 
 {Result}
+```

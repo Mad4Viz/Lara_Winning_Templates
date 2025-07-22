@@ -1,3 +1,4 @@
+```
 I used AI to create [desired result] for [clients/end-user].
 
 (In under [timeframe])
@@ -32,3 +33,5 @@ Save effort by cutting down [process time].
 Use this prompt, format properly, and win [platform/niche].
 
 It has never been easier to enter the top [percentage/group].
+
+```

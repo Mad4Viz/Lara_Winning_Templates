@@ -1,3 +1,4 @@
+```
 [Challenge a commonly accepted idea]
 
 [your contrasting idea #1]
@@ -21,3 +22,5 @@ Do it for [timeframe], watch your life change completely.
 
 PS: {relevant comment about a relevant image that you post along with the text}
 
+
+```

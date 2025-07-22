@@ -1,3 +1,4 @@
+```
 Yesterday, I did {crazy thing for work}.
 
 That same action lead to:
@@ -18,3 +19,4 @@ The best part? I didn't have to do {Hard thing}
 I simply did {simple thing}
 
 PS:…
+```

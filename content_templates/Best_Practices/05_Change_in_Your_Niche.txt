@@ -1,3 +1,4 @@
+```
 [Platform/Niche] has changed. A lot.
 
 (Read this if you [giving up on your niche])
@@ -25,3 +26,5 @@ Don't just [what everyone is doing], build a [Your Tip] instead.
 
 Outlast your competition this way.
 
+
+```

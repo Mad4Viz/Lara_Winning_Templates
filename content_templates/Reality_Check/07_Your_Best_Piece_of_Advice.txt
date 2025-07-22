@@ -1,3 +1,4 @@
+```
 My best piece of advice when creating [thing]?
 
 Ask yourself: "How can I best help/serve my {your niche audience}?"
@@ -8,3 +9,5 @@ If you speak to everyone, you speak to no one.
 
 Focus on one person, one problem.
 
+
+```

@@ -1,3 +1,4 @@
+```
 If I had to start from 0 on/for {thing} here's what I'd do:
 
 (how to actually {desired outcome})
@@ -20,3 +21,5 @@ Pick a problem, solve it and sell the implementation.
 
 This could be via:
 {examples}
+
+```

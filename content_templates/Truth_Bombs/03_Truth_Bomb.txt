@@ -1,3 +1,4 @@
+```
 Too many people overcomplicate {your niche}.
 
 - {common mistakes}
@@ -12,3 +13,5 @@ Truth is they only need:
 Your audience doesn't care about your {common mistake #1}, they care about {best practice}.
 
 Don't let your overcomplication turn into procrastination
+
+```

@@ -1,3 +1,4 @@
+```
 Everyone on/in {thing} should be telling stories.
 
 If you want to grow your {venture} fast, use this:
@@ -19,3 +20,5 @@ This is exactly how my {deliverable} is {ideal outcome}.
 
 Be specific enough to show authority, but generic enough to reach more people.
 
+
+```

@@ -1,3 +1,4 @@
+```
 Want to build a powerful [goal/objective]?
 
 (Proven tip I used to build my [achievement] from [starting point])
@@ -19,3 +20,5 @@ They want to see the problem and how you fixed it.
 
 Learn → Implement → Teach through [content/work]
 {Conclusion to your tip}
+
+```

@@ -1,3 +1,4 @@
+```
 I hacked ChatGPT and now It {a task} like me.
 
 Here's exactly how it does it (and faster)
@@ -20,3 +21,5 @@ I've been testing this for months, and it works.
 
 Master AI before it masters you.
 
+
+```

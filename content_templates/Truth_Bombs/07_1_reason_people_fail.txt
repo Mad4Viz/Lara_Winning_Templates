@@ -1,3 +1,4 @@
+```
 The number 1 reason {thing} fail:
 
 They focus on {not useful outcome}, not {useful outcome}.
@@ -21,3 +22,5 @@ Stop trying to {not useful outcome} before you {useful outcome}.
 Start {not useful outcome} while you're {useful outcome}.
 
 Repetitive {something that works} is/are how you get ahead of 99% of people.
+
+```

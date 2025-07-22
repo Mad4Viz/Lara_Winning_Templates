@@ -1,3 +1,4 @@
+```
 There's too many "I made {success}"
 
 But not enough "I struggled doing xyz"
@@ -14,3 +15,5 @@ That's the reality of being {who you are}…
 It's not all black and white…
 Remind people that not everything's perfect.
 
+
+```

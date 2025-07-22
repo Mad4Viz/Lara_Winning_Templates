@@ -1,3 +1,4 @@
+```
 Harsh {thing} truth:
 
 {Doing thing} is only half the job done on {platform}
@@ -9,3 +10,5 @@ Harsh {thing} truth:
 STOP doing {bad practice}
 START doing {new and improved practice}
 
+
+```

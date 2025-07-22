@@ -1,3 +1,4 @@
+```
 Last month I had [metrics] for my [your venture]
 
 - I don't {common mistake #1}
@@ -12,3 +13,5 @@ Invest in it accordingly.
 
 Build a powerful {venture}.
 
+
+```

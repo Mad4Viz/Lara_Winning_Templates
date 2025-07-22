@@ -1,3 +1,4 @@
+```
 Doing something is hard.
 
 You're expected to:
@@ -15,3 +16,5 @@ But it's (actually) really simple:
 (Conclusion.)
 
 (Sum it up.)
+
+```

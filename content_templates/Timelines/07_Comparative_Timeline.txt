@@ -1,3 +1,4 @@
+```
 [month and year]:
 - No {hard skill}.
 - No {soft skill}.
@@ -26,3 +27,5 @@ If you ask {fictional character} for something, ask him for the {soft skill} to 
 You won't regret it.
 
 {holiday greeting} {emoji action}
+
+```

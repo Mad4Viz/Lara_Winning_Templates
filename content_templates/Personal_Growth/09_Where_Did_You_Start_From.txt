@@ -1,3 +1,4 @@
+```
 [Add an image]
 
 This is my [old place/start point] where it all began.
@@ -12,3 +13,5 @@ One year of [action you took] can put you decades ahead.
 
 You just have to make the choice to go all in on [your goal].
 
+
+```

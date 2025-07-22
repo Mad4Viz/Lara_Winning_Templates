@@ -1,3 +1,4 @@
+```
 {thing} growth tip:
 
 Cut the fluff.
@@ -18,3 +19,5 @@ But is your {deliverable}?
 - {Tip #3}
 
 See how much your {thing} improves.
+
+```

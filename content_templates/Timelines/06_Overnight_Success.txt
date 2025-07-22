@@ -1,3 +1,4 @@
+```
 I failed [number] [attempts/ventures] before landing on [platform/niche].
 
 Here's my [timeframe] "overnight success":
@@ -18,3 +19,5 @@ There was no luck, just [key trait].
 Lesson? {your lesson in one-liner}.
 
 You don't lack [skill/attribute], just consistency.
+
+```

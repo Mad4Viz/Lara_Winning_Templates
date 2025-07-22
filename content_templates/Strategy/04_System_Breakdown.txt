@@ -1,3 +1,4 @@
+```
 My {year} {your expertise} strategy:
 
 - {frequency} to do X
@@ -32,3 +33,4 @@ But it's how I've been able to 'win' on here.
 A sustainable and nurtured strategy.
 
 It's chess, not checkers.
+```

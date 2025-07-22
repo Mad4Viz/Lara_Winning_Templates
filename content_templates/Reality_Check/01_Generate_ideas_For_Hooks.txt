@@ -1,3 +1,4 @@
+```
 How you think you should {action} on {social media platform}:
 
 - {Wrong practice}
@@ -15,3 +16,4 @@ Strong CTA's are good but strong brands are better.
 Make people WANT to {action} from you.
 
 Don't force them.
+```
