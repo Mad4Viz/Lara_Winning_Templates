@@ -1,11 +1,79 @@
----
-layout: default
-title: Simplify
----
-
-{% include codeHeader.html %}
-```
-People overcomplicate {thing}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simplify Template</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+            line-height: 1.5;
+            color: #1f2328;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1012px;
+            margin: 0 auto;
+        }
+        
+        .copy-header {
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 0;
+        }
+        
+        .copy-btn {
+            background-color: #f6f8fa;
+            border: 1px solid #d1d9e0;
+            border-radius: 6px;
+            color: #656d76;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 500;
+            padding: 3px 8px;
+            transition: background-color 0.2s, border-color 0.2s;
+        }
+        
+        .copy-btn:hover {
+            background-color: #f3f4f6;
+            border-color: #d1d9e0;
+        }
+        
+        .copy-btn.copied {
+            color: #1f883d;
+        }
+        
+        .code-block {
+            background-color: #f6f8fa;
+            border: 1px solid #d1d9e0;
+            border-radius: 6px;
+            font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+            font-size: 13px;
+            line-height: 1.45;
+            margin: 0;
+            overflow: auto;
+            padding: 16px;
+            white-space: pre;
+        }
+        
+        .code-block code {
+            background: transparent;
+            border: 0;
+            font: inherit;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="copy-header">
+            <button class="copy-btn" onclick="copyToClipboard()">Copy</button>
+        </div>
+        <pre class="code-block"><code>People overcomplicate {thing}
 
 Listen, if you're a {experience level}:
 
@@ -22,5 +90,52 @@ Instead:
 - {thing they should do}
 
 Focus on this for the first {time frame}.
-Build from there.
-```
+Build from there.</code></pre>
+    </div>
+
+    <script>
+        function copyToClipboard() {
+            const codeBlock = document.querySelector('.code-block code');
+            const text = codeBlock.textContent;
+            const button = document.querySelector('.copy-btn');
+            
+            if (navigator.clipboard) {
+                navigator.clipboard.writeText(text).then(() => {
+                    button.textContent = 'Copied!';
+                    button.classList.add('copied');
+                    setTimeout(() => {
+                        button.textContent = 'Copy';
+                        button.classList.remove('copied');
+                    }, 2000);
+                }).catch(() => {
+                    fallbackCopy(text, button);
+                });
+            } else {
+                fallbackCopy(text, button);
+            }
+        }
+        
+        function fallbackCopy(text, button) {
+            const textArea = document.createElement('textarea');
+            textArea.value = text;
+            document.body.appendChild(textArea);
+            textArea.select();
+            try {
+                document.execCommand('copy');
+                button.textContent = 'Copied!';
+                button.classList.add('copied');
+                setTimeout(() => {
+                    button.textContent = 'Copy';
+                    button.classList.remove('copied');
+                }, 2000);
+            } catch (err) {
+                button.textContent = 'Copy failed';
+                setTimeout(() => {
+                    button.textContent = 'Copy';
+                }, 2000);
+            }
+            document.body.removeChild(textArea);
+        }
+    </script>
+</body>
+</html>
