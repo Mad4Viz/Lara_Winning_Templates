@@ -31,9 +31,7 @@ Lara_Winning_Templates/
 └── README.md
 ```
 
-## Why This Approach?
-
-### Problem Solved
+### Problems Encoutered and Solved
 - **Tableau Public Limitation**: Users can copy template text directly from Dashboard, which could not be done with Tableau Worksheet. Moreover, I wanted to avoid using export feature, which would make a poor user experiance. 
 - **Notion URL Issues**: Notion URls expire after a time period, which prompted to find a new place to store images which could be linked to Tableau
 - **Category Management**: Needed to organise templates into categories for ease of use in Tableau
