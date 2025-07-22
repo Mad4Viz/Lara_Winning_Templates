@@ -1,0 +1,21 @@
+I lasted {duration} in my {previous job}.
+
+- It was {negative thing}.
+- I wasn't {thing}
+- It was {negative thing}
+
+{context}
+
+{timeframe} later, I did {life-changing thing}
+- I had {challenge or limitation}
+- I had {challenge or limitation}
+- I had {challenge or limitation}
+
+Today:
+- I'm {positive adjective}
+- I'm {positive adjective}
+- I'm {positive adjective}
+
+{positive reflection}
+
+

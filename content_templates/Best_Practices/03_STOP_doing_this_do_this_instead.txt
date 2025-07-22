@@ -1,0 +1,14 @@
+Please STOP (doing something)
+
+I see too many people (doing that something and failing)
+
+Do this instead:
+- (action)
+- action
+- action
+- action
+- action
+
+The main reason why the failure happened.
+
+Save you money, do (as above) and solve a problem.

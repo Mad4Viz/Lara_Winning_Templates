@@ -1,0 +1,14 @@
+Actual hack that works:
+
+{The hack}
+
+{Context}
+- Desired outcome 1
+- Desired outcome 2
+- Desired outcome 3
+
+Anyone can do {thing}
+
+You're the only one that can do {thing}
+
+
