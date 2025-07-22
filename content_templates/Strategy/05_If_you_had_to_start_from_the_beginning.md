@@ -15,7 +15,7 @@ You'll stick to it longer.
 - {tip #1}
 
 This is exactly how I {what you achieved}.
-And how I got {{what you achieved #2}.
+And how I got {what you achieved #2}.
 
 Pick a problem, solve it and sell the implementation.
 
