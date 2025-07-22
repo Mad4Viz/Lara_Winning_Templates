@@ -1,14 +1,2 @@
-# First batch - migrated to regular git
-images/full-quality-images/1_simplify.jpg -filter -diff -merge text
-images/full-quality-images/2_generate_ideas_for_hooks.jpg -filter -diff -merge text
-images/full-quality-images/3_a_transformation.jpg -filter -diff -merge text
-images/full-quality-images/4_2023_vs_2024.jpg -filter -diff -merge text
-images/full-quality-images/5_your_1_niche_tip.jpg -filter -diff -merge text
-images/full-quality-images/6_something_crazy_happened.jpg -filter -diff -merge text
-images/full-quality-images/7_your_definition_of_success.jpg -filter -diff -merge text
-images/full-quality-images/8_harsh_truth.jpg -filter -diff -merge text
-images/full-quality-images/9_comparative_changes.jpg -filter -diff -merge text
-images/full-quality-images/10_mindset_shift.jpg -filter -diff -merge text
-
-# Remaining files still in LFS
-images/full-quality-images/*.jpg filter=lfs diff=lfs merge=lfs -text
+# All images now stored as regular Git files (not LFS)
+# LFS tracking removed for Tableau compatibility
