@@ -4,7 +4,7 @@ A LinkedIn content template system with categorised datasets and GitHub Pages in
 
 ## Project Overview
 
-This repository evolved from a Notion content extraction project to a comprehensive LinkedIn content template system designed for Tableau Public integration. The project categorises 62 LinkedIn content templates into 8 strategic categories and provides multiple hosting solutions for maximum Tableau flexibility.
+This repository evolved from a Notion content extraction project into a comprehensive LinkedIn content template system, designed for integration with Tableau Public. The project categorises 62 LinkedIn content templates into 8 strategic categories and provides multiple hosting solutions for maximum Tableau flexibility.
 
 ### Key Features
 - **62 LinkedIn Content Templates** organised into 8 categories
@@ -31,9 +31,9 @@ Lara_Winning_Templates/
 └── README.md
 ```
 
-### Problems Encoutered and Solved
-- **Tableau Public Limitation**: Users can copy template text directly from Dashboard, which could not be done with Tableau Worksheet. Moreover, I wanted to avoid using export feature, which would make a poor user experiance. 
-- **Notion URL Issues**: Notion URls expire after a time period, which prompted to find a new place to store images which could be linked to Tableau
+### Problems Encountered and Solved
+- **Tableau Public Limitation**: Users can copy template text directly from Dashboard, which cannot be done with Tableau Worksheet. Moreover, I wanted to avoid using export feature, which would make a poor user experience. 
+- **Notion URL Issues**: Notion URLs expire after a period, prompting the need to find a new place to store images which could be linked to Tableau
 - **Category Management**: Needed to organise templates into categories for ease of use in Tableau
 
 ### Category Breakdown
