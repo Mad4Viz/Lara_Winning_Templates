@@ -1,12 +1,11 @@
 ---
 layout: default
-title: Harsh Truth Template
+title: Harsh Truth
 ---
 
-# Harsh Truth Template
-
-<div class="template-content">
-<pre><code>Harsh {thing} truth:
+{% include codeHeader.html %}
+```
+Harsh {thing} truth:
 
 {Doing thing} is only half the job done on {platform}
 - You need to {action} 
@@ -16,52 +15,4 @@ title: Harsh Truth Template
 
 STOP doing {bad practice}
 START doing {new and improved practice}
-
-
-</code></pre>
-</div>
-
-<style>
-.template-content pre {
-    background-color: #f6f8fa;
-    border: 1px solid #e1e4e8;
-    border-radius: 6px;
-    padding: 16px;
-    overflow-x: auto;
-    font-family: 'SFMono-Regular', 'Consolas', 'Liberation Mono', 'Menlo', 'Courier', monospace;
-    font-size: 14px;
-    line-height: 1.45;
-    position: relative;
-}
-
-.template-content pre:hover::after {
-    content: 'Copy';
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    background: #24292e;
-    colour: #fff;
-    padding: 4px 8px;
-    font-size: 12px;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-.template-content pre:hover {
-    background-color: #f1f3f4;
-}
-</style>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    const pre = document.querySelector('.template-content pre');
-    if (pre) {
-        pre.addEventListener('click', function() {
-            const text = this.textContent;
-            navigator.clipboard.writeText(text).then(function() {
-                console.log('Template copied to clipboard!');
-            });
-        });
-    }
-});
-</script>
+```

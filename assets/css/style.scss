@@ -1,0 +1,44 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.code-header {
+  margin-bottom: 0;
+  padding: 0.5rem 1rem;
+  background-color: #f6f8fa;
+  border: 1px solid #e1e4e8;
+  border-bottom: none;
+  border-radius: 6px 6px 0 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.copy-code-button {
+  background-color: #24292e;
+  color: #fff;
+  border: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.copy-code-button:hover {
+  background-color: #444d56;
+}
+
+.copy-code-button.copied {
+  background-color: #28a745;
+}
+
+.code-header + .highlighter-rouge .highlight {
+  border-radius: 0 0 6px 6px;
+  border-top: none;
+  margin-top: 0;
+}
+
+.code-header + .highlighter-rouge {
+  margin-top: 0;
+}
