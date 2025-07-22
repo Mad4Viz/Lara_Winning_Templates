@@ -1,0 +1,12 @@
+theme: minima
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# GitHub Pages settings
+safe: true
+source: .
+destination: ./_site
+incremental: false
