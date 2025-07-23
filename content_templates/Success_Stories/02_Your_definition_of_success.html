@@ -18,9 +18,20 @@
         }
         
         .container {
-            max-width: 1012px;
+            max-width: 503px;
             margin: 0 auto;
             position: relative;
+            overflow-x: hidden;
+        }
+        
+        .page-title {
+            color: #D9730F;
+            font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            text-align: left;
+            padding-left: 16px;
         }
         
         .copy-header {
@@ -65,7 +76,8 @@
             margin: 0;
             overflow: auto;
             padding: 16px;
-            white-space: pre;
+            padding-right: 50px;
+            white-space: pre-wrap;
             position: relative;
         }
         
@@ -80,6 +92,7 @@
 </head>
 <body>
     <div class="container">
+        <h1 class="page-title">Success Stories - Post Number 2 - Your definition of success</h1>
         <div class="copy-header">
             <button class="copy-btn" onclick="copyToClipboard()" title="Copy to clipboard">
                 <svg class="copy-icon" viewBox="0 0 16 16">
