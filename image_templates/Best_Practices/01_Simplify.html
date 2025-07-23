@@ -9,15 +9,21 @@
             background-color: #ffffff;
             margin: 0;
             padding: 20px;
+            min-height: 100vh;
         }
         
         .container {
-            width: 100%;
-            height: 100%;
-            margin: 0;
+            max-width: 800px;
+            margin: 0 auto;
             background-color: #ffffff;
             cursor: zoom-in;
-            transition: transform 0.3s ease;
+            transition: transform 0.2s ease-out;
+        }
+        
+        .container.zoomed {
+            margin: 0;
+            max-width: none;
+            width: 100vw;
         }
         
         .image-container {
@@ -25,38 +31,37 @@
             margin: 0;
             padding: 0;
             width: 100%;
-            height: 100%;
             text-align: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
         }
         
         .linkedin-image {
             max-width: 100%;
-            max-height: 100%;
-            width: auto;
             height: auto;
             display: block;
-            margin: 0;
+            margin: 0 auto;
             background-color: #ffffff;
             border-radius: 6px;
         }
         
         /* Click-to-zoom functionality */
         .container.zoomed {
-            transform: scale(1.6);
-            transform-origin: top center;
+            transform: scale(1.4);
             cursor: zoom-out;
+            position: relative;
+            z-index: 10;
         }
         
         body.zoomed-container {
             overflow: auto;
+            padding: 0;
+            margin: 0;
+            min-width: 140vw;
+            min-height: 140vh;
         }
     </style>
 </head>
 <body>
-    <div class="container" onclick="toggleZoom(this)">
+    <div class="container" onclick="toggleZoom(this, event)">
         <div class="image-container">
             <img src="https://raw.githubusercontent.com/Mad4Viz/Lara_Winning_Templates/main/images/full-quality-images/1_simplify.jpg" 
                  alt="LinkedIn Post - Click to zoom" 
@@ -65,10 +70,35 @@
     </div>
     
     <script>
-        function toggleZoom(element) {
+        function toggleZoom(element, event) {
             element.classList.toggle('zoomed');
-            // Enable scrolling on the body when zoomed
             document.body.classList.toggle('zoomed-container');
+            
+            if (element.classList.contains('zoomed')) {
+                // Always zoom from top-left to keep all content accessible
+                element.style.transformOrigin = 'top left';
+                
+                // Get click position for initial scroll positioning
+                const rect = element.getBoundingClientRect();
+                const clickX = event.clientX - rect.left;
+                const clickY = event.clientY - rect.top;
+                
+                // After zoom, scroll to show the clicked area
+                setTimeout(() => {
+                    const scaledClickX = (clickX * 1.4) - (window.innerWidth / 2);
+                    const scaledClickY = (clickY * 1.4) - (window.innerHeight / 2);
+                    
+                    window.scrollTo({
+                        left: Math.max(0, scaledClickX),
+                        top: Math.max(0, scaledClickY),
+                        behavior: 'smooth'
+                    });
+                }, 200);
+            } else {
+                // Reset transform origin when zooming out
+                element.style.transformOrigin = 'center center';
+                window.scrollTo({ left: 0, top: 0, behavior: 'smooth' });
+            }
         }
     </script>
 </body>
