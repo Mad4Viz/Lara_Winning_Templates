@@ -55,7 +55,7 @@
         
         /* Click-to-zoom functionality */
         .container.zoomed {
-            transform: scale(1.4);
+            transform: scale(1.6);
             cursor: zoom-out;
             position: relative;
             z-index: 10;
@@ -96,8 +96,8 @@
                 
                 // After zoom, scroll to show the clicked area
                 setTimeout(() => {
-                    const scaledClickX = (clickX * 1.4) - (window.innerWidth / 2);
-                    const scaledClickY = (clickY * 1.4) - (window.innerHeight / 2);
+                    const scaledClickX = (clickX * 1.6) - (window.innerWidth / 2);
+                    const scaledClickY = (clickY * 1.6) - (window.innerHeight / 2);
                     
                     window.scrollTo({
                         left: Math.max(0, scaledClickX),
