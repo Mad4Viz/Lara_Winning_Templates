@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Template - Poppins Style</title>
+    <title>What you needed & didn't need Template</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
@@ -57,7 +57,7 @@
         
         .code-block {
             background-color: #ffffff;
-            border: 1px solid #d1d9e0;
+            /* border: 1px solid #d1d9e0; */
             border-radius: 6px;
             font-family: 'Poppins', ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
             font-size: 13px;
@@ -88,30 +88,33 @@
                 </svg>
             </button>
         </div>
-        <pre class="code-block"><code>People overcomplicate {thing}
+        <pre class="code-block"><code>This will be my first {accomplishment} year.
 
-Listen, if you're a {experience level}:
+I didn't need:
 
-Avoid:
-- {thing they should avoid}
-- {thing they should avoid}
-- {thing they should avoid}
-- {thing they should avoid}
+- (passive state)
+- (passive state)
+- (passive state)
 
-Instead:
+I needed:
+- (action)
+- (action)
+- (action)
 
-- {thing they should do}
-- {thing they should do}
-- {thing they should do}
+Today, I'm slowing down.
 
-Focus on this for the first {time frame}.
-Build from there.</code></pre>
+Like all athletes, this is my off-season.
+- (doing thing)
+- (doing thing)
+- (doing thing)
+
+(Conclusion of what works for you.)</code></pre>
     </div>
 
     <script>
         function copyToClipboard() {
             const codeBlock = document.querySelector('.code-block code');
-            const text = codeBlock.textContent;
+            const text = codeBlock.innerText;
             const button = document.querySelector('.copy-btn');
             const icon = document.querySelector('.copy-icon');
             
