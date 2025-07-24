@@ -2,6 +2,11 @@
 
 **Project Goal**: Improve the UX of Lara Acosta's Winning Templates to allow users to select the ideal writing template at every stage.
 
+<video width="100%" controls>
+  <source src="./Lara Acosta Winning Template.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 **Context**: A data pipeline project that transforms 62 proven LinkedIn content templates from Notion into an organised, interactive library optimised for content creators and marketing teams.
 
 ## What This Project Delivers
@@ -19,19 +24,23 @@ A complete interactive library of 62 proven LinkedIn content templates, organise
 
 ### Problem 1: Template Discovery & Selection
 **Challenge**: Users struggled to find the right template from 62 options without clear organisation.
+
 **Solution**: Created 8 logical categories (Tips, Personal Growth, Strategy, etc.) with sequential numbering for easy navigation.
 
 ### Problem 2: Temporary Image URLs
 **Challenge**: Original Notion image URLs expired, breaking dashboard visualisations and user experience.
+
 **Solution**: Migrated all assets to GitHub Pages for permanent, reliable URLs that never expire.
 
 ### Problem 3: Performance Issues
 **Challenge**: Original images (300KB-2MB) were too large for optimal dashboard performance in Tableau.
+
 **Solution**: Optimised all 62 images to under 200KB whilst maintaining visual quality, ensuring fast loading times.
 
 ### Problem 4: Content Copy Experience
 **Challenge**: Users couldn't easily copy template text from visualisation dashboards.
-**Solution**: Built interactive HTML templates with one-click copy functionality, mimicking the familiar Notion experience.
+
+**Solution**: Explored multiple approaches including Tableau's URL feature for text integration, but ultimately opted for interactive HTML templates with one-click copy functionality, providing a superior user experience.
 
 ## Final Deliverables
 
