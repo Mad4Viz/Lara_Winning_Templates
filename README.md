@@ -96,18 +96,29 @@ The project includes a comprehensive CSV file (`lara_winning_templates_tableau_r
 | Number | Template sequence | 1, 2, 3... |
 | Toggle Title | Template name | "Simplify", "Your #1 Niche Tip" |
 | Text Content | Full template with placeholders | "People overcomplicate {thing}..." |
-| Original Image URL | High-quality image link | `https://username.github.io/.../1_simplify.jpg` |
-| Optimised Image URL | Tableau-ready image link | `https://username.github.io/.../optimised/1_simplify.jpg` |
+| Original Image URL | **Full-quality images** (300KB-2MB+) for high-end use - NOT suitable for Tableau | `https://mad4viz.github.io/Lara_Winning_Templates/images/full-quality-images/1_simplify.jpg` |
+| Optimised Image URL | **Tableau-ready images** compressed to <200KB for optimal dashboard performance | `https://mad4viz.github.io/Lara_Winning_Templates/images/optimised-images/1_simplify.jpg` |
 | Category | Template grouping | "Tips", "Personal Growth" |
 | Category_Number | Sequential within category | 1, 2, 3... |
-| Text_File_URL | Copy-friendly text link | `https://username.github.io/.../Tips/01_Your_1_Niche_Tip.txt` |
-| HTML_File_URL | Interactive template link | `https://username.github.io/.../Tips/01_Your_1_Niche_Tip.html` |
+| Text_File_URL | Copy-friendly text links for Tableau web objects | `https://mad4viz.github.io/Lara_Winning_Templates/content_templates/Tips/01_Your_1_Niche_Tip.txt` |
+| HTML_File_URL | **Interactive text post templates** with copy functionality | `https://mad4viz.github.io/Lara_Winning_Templates/content_templates/Tips/01_Your_1_Niche_Tip.html` |
+| HTML_Post_Link | **Interactive image post templates** for viewing template images | `https://mad4viz.github.io/Lara_Winning_Templates/image_templates/Tips/01_Your_1_Niche_Tip.html` |
 
 ### Access Methods
-**Direct Template Access:**
+
+**Text Templates (for content):**
 ```
-https://username.github.io/Lara_Winning_Templates/content_templates/[Category]/[Template].html
+https://mad4viz.github.io/Lara_Winning_Templates/content_templates/[Category]/[Template].html
 ```
 
+**Image Templates (for visuals):**
+```
+https://mad4viz.github.io/Lara_Winning_Templates/image_templates/[Category]/[Template].html
+```
+
+**Direct Images for Tableau:**
+- **Use Optimised URLs**: `https://mad4viz.github.io/Lara_Winning_Templates/images/optimised-images/[filename].jpg`
+- **Avoid Original URLs**: Will not load natively in Tableau
+
 **Dashboard Integration:**
-Perfect for Tableau, Power BI, and other business intelligence tools requiring permanent image URLs and structured data.
+Perfect for Tableau, Power BI, and other business intelligence tools. Always use the **Optimised Image URL** column for dashboard performance.
