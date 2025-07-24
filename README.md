@@ -2,9 +2,9 @@
 
 **Project Goal**: Improve the UX of Lara Acosta's Winning Templates to allow users to select the ideal writing template at every stage.
 
-**[📹 View Project Demo Video](https://mad4viz.github.io/Lara_Winning_Templates/Low_Video.mp4)**
+**Tableau Dashboard** - https://public.tableau.com/app/profile/valerie.madojemu/viz/WinningTemplates/Dashboard
 
-*Click the link above to see the template selection workflow and UX improvements in action*
+![UX Improvements](./Improving_UX.png)
 
 **Context**: A data pipeline project that transforms 62 proven LinkedIn content templates from Notion into an organised, interactive library optimised for content creators and marketing teams.
 
